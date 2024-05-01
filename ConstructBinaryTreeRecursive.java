@@ -27,6 +27,11 @@ class TreeNode {
  * j-1 & right subtree is j+1, n-1; where j is the index where
  * preOrder[i]==inOrder[j]
  * 
+ * Things to note:
+ * each recursive we go one index right in preorder
+ * At each value in preorder get the index in inorder and determine the left and
+ * right sub-tree and continue the same recursively.
+ * 
  * 
  * 
  */
